@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Baby Care Service",
+    "shortDescription": "Gentle and loving care for your little ones",
+    "metaDescription": "Professional baby care service offering safe, nurturing, and personalized support for newborns to toddlers. Expert caregivers ensure comfort, hygiene, and early development.",
+    "description": "Our Baby Care service provides attentive, nurturing, and professional care for newborns and toddlers. We focus on ensuring safety, health, and early developmental milestones. From feeding and diapering to sleep routines and stimulating activities, our caregivers create a warm, loving environment where your baby can thrive. We understand the unique needs of infants and work closely with parents to develop personalized care plans that support growth, emotional well-being, and early learning. With safety and hygiene as top priorities, our team ensures every moment with your little one is filled with love, attention, and care.",
+    "image": "https://images2.imgbox.com/83/74/ZpI0ADtd_o.jpg",
+    "features": [
+      "Experienced caregivers specialized in infant care",
+      "Feeding, diapering, and sleep management",
+      "Developmental activities and early learning support",
+      "Safe and hygienic environment"
+    ],
+    "pricePerDay": 1250,
+    "qna": [
+      {
+        "question": "What ages do you care for?",
+        "answer": "We provide care for babies from newborn up to 3 years old."
+      },
+      {
+        "question": "Are caregivers trained in first aid?",
+        "answer": "Yes, all our caregivers are certified in infant first aid and CPR."
+      },
+      {
+        "question": "Can care be customized for special needs?",
+        "answer": "Absolutely! We create personalized care plans based on your baby’s needs."
+      }
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "title": "Elderly Service",
+    "shortDescription": "Compassionate support for seniors’ daily needs",
+    "metaDescription": "Reliable elderly care service offering personal assistance, medication reminders, companionship, and daily support to help seniors live comfortably and independently.",
+    "description": "Our Elderly Service is designed to provide reliable, compassionate, and respectful care for seniors who wish to maintain independence while receiving support in their daily lives. From personal hygiene and meal preparation to medication reminders and mobility assistance, our caregivers ensure that every need is met with care and professionalism. We provide companionship, emotional support, and health monitoring to promote both physical and mental well-being. Our goal is to enhance quality of life, giving seniors and their families peace of mind by offering dependable, loving care tailored to each individual’s needs and preferences.",
+    "image": "https://images2.imgbox.com/09/04/82KeDRGL_o.jpg",
+    "features": [
+      "Personal care and hygiene assistance",
+      "Medication reminders and health monitoring",
+      "Companionship and emotional support",
+      "Assistance with daily activities"
+    ],
+    "pricePerDay": 1750,
+    "qna": [
+      {
+        "question": "Can caregivers assist with mobility issues?",
+        "answer": "Yes, our caregivers are trained to assist seniors with mobility safely."
+      },
+      {
+        "question": "Are services available on weekends?",
+        "answer": "Yes, we provide care 7 days a week."
+      },
+      {
+        "question": "Can care be long-term or short-term?",
+        "answer": "We offer both short-term and long-term care based on your needs."
+      }
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 3,
+    "title": "Sick People Service",
+    "shortDescription": "Professional care for the unwell at home or hospital",
+    "metaDescription": "Trusted sick care service offering recovery support, medication management, mobility assistance, and emotional care at home or in hospitals.",
+    "description": "Our Sick People Service offers professional and compassionate support for individuals recovering from illness, surgery, or managing chronic health conditions. We provide assistance with daily tasks, medication management, mobility support, and emotional care, ensuring the patient’s comfort and recovery. Our trained caregivers monitor health conditions, follow medical instructions, and adapt care plans to each individual’s specific needs. We believe in promoting well-being, dignity, and independence wherever possible, creating a safe and nurturing environment that helps patients heal faster and feel supported every step of the way.",
+    "image": "https://images2.imgbox.com/08/40/NAkp0fiD_o.jpg",
+    "features": [
+      "Post-surgery and recovery care",
+      "Medication management and health monitoring",
+      "Assistance with mobility and daily tasks",
+      "Emotional support and companionship"
+    ],
+    "pricePerDay": 1500,
+    "qna": [
+      {
+        "question": "Do caregivers have medical training?",
+        "answer": "Yes, all our caregivers are trained in basic medical care and patient support."
+      },
+      {
+        "question": "Can care be provided at home or hospital?",
+        "answer": "Yes, we provide services both at home and in hospital settings."
+      },
+      {
+        "question": "Is care available for chronic illnesses?",
+        "answer": "Absolutely! We support patients with chronic conditions with personalized care plans."
+      }
+    ],
+    "rating": 4.7
+  }
+]
