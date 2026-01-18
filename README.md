@@ -6,8 +6,14 @@ From healthcare assistance to home services, the platform bridges the gap betwee
 ---
 
 ## Live Demo  
-**https://carexyz.vercel.app/**
+**https://carexyz-chi.vercel.app/**
 
+## 🔐 Demo Credentials (For Testing)
+
+- Manger -> email : siam@ahmed.com   pass : 123456aA#   (login)
+- Admin -> email : habib@ullah.com    pass : 123456aA#   (login)
+
+**Live URL:** `https://carexyz-chi.vercel.app/`
 ---
 
 ### Description
