@@ -1,74 +1,120 @@
-# Care.xyz
+# DevConsult
 
-**Care.xyz** is a modern service booking platform designed to provide seamless care solutions.  
-From healthcare assistance to home services, the platform bridges the gap between service providers and those in need through an intuitive, automated booking and invoicing system.
+DevConsult is a modern, high-performance consultancy web application designed to showcase professional services with a premium user experience. It features a responsive design, interactive UI components, and a robust mock authentication system.
 
----
+## 🚀 Setup & Installation
 
-## Live Demo  
-**https://carexyz-chi.vercel.app/**
+Follow these steps to get the project running on your local machine:
 
-## 🔐 Demo Credentials (For Testing)
+1.  **Clone the repository:**
 
-- Manger -> email : siam@ahmed.com   pass : 123456aA#   (login)
-- Admin -> email : habib@ullah.com    pass : 123456aA#   (login)
+    ```bash
+    git clone https://github.com/rifatara04/dev-consult.git
+    cd dev-consult
+    ```
 
-**Live URL:** `https://carexyz-chi.vercel.app/`
----
+2.  **Install dependencies:**
 
-### Description
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
 
-**Care.xyz** is a full-stack web application built with the **Next.js App Router**.  
-It features a robust backend powered by **MongoDB** and automated email communication using **Nodemailer**.
+3.  **Run the development server:**
 
-Users can browse services, book them based on duration, and instantly receive **HTML-formatted invoice emails** upon successful booking.
+    ```bash
+    npm run dev
+    ```
 
-### Key Features
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **Dynamic Service Booking**: Real-time cost calculation based on service duration  
-- **Automated Invoicing**: Professional HTML email invoices sent via Nodemailer  
-- **Booking Tracking**: Prevents duplicate active bookings for the same service  
-- **Responsive Design**: Optimized UI for mobile, tablet, and desktop  
+## 📍 Route Summary
 
----
+| Route            | Description                                                                                            |
+| :--------------- | :----------------------------------------------------------------------------------------------------- |
+| `/`              | **Homepage**: Landing page with Hero, Services preview, Client logos, Process steps, and Testimonials. |
+| `/about`         | **About Us**: Company mission, core values, history timeline, and team members.                        |
+| `/services`      | **Services**: Public catalog of services (Web Dev, Mobile App, Cloud, etc.) with price and details.    |
+| `/services/[id]` | **Service Details**: Dynamic page showing detailed information for a specific service.                 |
+| `/contact`       | **Contact**: Inquiry form with validation and contact information.                                     |
+| `/login`         | **Login**: Custom authentication page (Mock credentials: `user@example.com` / `password`).             |
 
-## Purpose
+## ✨ Implemented Features
 
-- **Efficiency**: Automates the service hiring workflow  
-- **Transparency**: Instant, clear invoices with cost breakdowns  
-- **Accessibility**: Reliable platform tailored for users in Bangladesh  
-- **Reliability**: Ensures data integrity with booking & payment tracking  
+### 1. Modern User Interface
 
----
+- **Responsive Design**: Fully optimized for Desktop, Tablet, and Mobile devices.
+- **Modular Architecture**: Built with reusable React Server Components for performance and maintainability.
+- **Styling**: Utilizes **Tailwind CSS** for rapid, utility-first styling with a consistent color palette (Slate & Blue).
+- **Icons**: Integrated **Lucide React** for consistent and beautiful iconography.
+- **Animations**: Smoth transitions and interactive elements using `framer-motion` and CSS transitions.
 
-## Tech Stack & NPM Packages
+### 2. Authentication System
 
-The project leverages the following major dependencies:
+- **Secure Mock Auth**: Implemented a custom API (`/api/auth/login`) that sets `HttpOnly` cookies for security and accessible status cookies for client-side state.
+- **Client-Side Context**: A dedicated `AuthContext` provides global `isLoggedIn` state that updates **instantly** without page reloads.
+- **Persistent Session**: Verified via cookies logic handling browser compatibility.
+- **User Profile**:
+  - **Header**: Shows User Avatar when logged in.
+  - **Dropdown**: Clicking avatar reveals user details and "Sign Out" option.
+  - **Mobile Integration**: Profile info and specific "Sign Out" button integrated directly into the responsive mobile menu.
 
-| Package                 | Purpose                                                    |
-|-------------------------|-------------------------------------------------------------|
-| **Next.js**             | React Framework for production (App Router)                |
-| **Nodemailer**          | Sending automated email invoices and notifications         |
-| **MongoDB**  | Database for users, services, and bookings                 |
-| **Tailwind CSS**, **DaisyUI**        | Styling and responsive UI components                       |
-| **React Hook Form**     | Efficient form handling and validation                     |
-| **React Hot Toast**, **SweetAlert2**     | Elegant success/error notifications                        |
-| **React Icons**        | High-quality, consistent iconography                       |
+### 3. Service Catalog
 
----
+- **Dynamic Routing**: Individual service pages generated via Next.js dynamic routes (`[id]`).
+- **Mock Data Layer**: Centralized mock data management simulating a database for Services and Team members.
+- **Interactive Cards**: Hover effects, badges, and detailed pricing information.
 
-## Contribution
+### 4. Forms & Interaction
 
-Contributions make the open-source community an amazing place to learn and grow.  
-Any contributions you make are **greatly appreciated**!
+- **Validation**: Robust form validation using `react-hook-form` (Login, Contact, Newsletter).
+- **Toast Notifications**: Integrated `react-hot-toast` for real-time success/error feedback (e.g., "Logged in successfully", "Message sent").
 
----
+### 5. Tech Stack
 
-## License
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: React Context API
 
-Distributed under the MIT License.
-See `LICENSE` for more information.
+## Live URL
 
----
+#### 🚀 Live Project URL: https://dev-consult.vercel.app/
 
-## Stay safe, stay with Care.xyz.
+## Project Dependencies
+
+#### Dependencies List
+
+```
+ "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.26.2",
+    "lucide-react": "^0.562.0",
+    "next": "16.1.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-hook-form": "^7.71.1",
+    "react-hot-toast": "^2.6.0",
+    "tailwind-merge": "^3.4.0"
+  }
+```
+
+#### Dev Dependencies List
+
+```"devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.3",
+    "tailwindcss": "^4",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "^5"
+  }
+```
